@@ -11,17 +11,28 @@
     .nav-context,
     .banner-container,
     .banner-context-section,
-    .banner-img-section{
+    .banner-img-section,
+    .logo-container{
     
         width: 100%;
         text-align: center;
         flex-direction: column;
         
       }
-
+    
       .nav-context a{
         margin-bottom: 10px;
     }
+
+    .logo-container span{
+        margin-bottom: 20px;
+    }
+
+    .grid-card-container {
+  
+     grid-template-columns: 1fr;
+    
+      }
 
 }
 
@@ -33,7 +44,8 @@
 
 @media screen and (min-width:577px) and (max-width:900px){
 
-    .nav-container{
+    .nav-container,
+    .logo-container{
         flex-direction: column;
         
     }
@@ -48,6 +60,16 @@
     .banner-container{
         flex-direction: column-reverse;
     }
+
+    .logo-container span{
+        margin-bottom: 20px;
+    }
+
+    .grid-card-container {
+    
+     grid-template-columns: repeat(2, 1fr);
+              
+      }
 
 
 }
