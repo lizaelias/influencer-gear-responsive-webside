@@ -8,7 +8,10 @@
     }
 
     .nav-heading,
-    .nav-context{
+    .nav-context,
+    .banner-container,
+    .banner-context-section,
+    .banner-img-section{
     
         width: 100%;
         text-align: center;
@@ -41,6 +44,9 @@
         width: 100%;
         text-align: center;
         
+    }
+    .banner-container{
+        flex-direction: column-reverse;
     }
 
 

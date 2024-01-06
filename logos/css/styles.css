@@ -9,6 +9,7 @@ body{
     box-sizing: border-box;
 }
 
+/* nav secton styles start here */
 .nav-container{
     max-width: 1250px;
     margin: 0 auto;
@@ -39,3 +40,57 @@ body{
     font-size: 16px;
     font-weight: 600;
 }
+/* nav secton styles end here */
+
+/* banner secton styles start here */
+  .banner-container{
+    max-width: 1250px;
+    margin:20px auto;
+    display: flex;
+    align-items: center;
+
+
+  }
+  .banner-context-section{
+    border: 1px solid yellow;
+    width: 50%;
+
+  }
+  .banner-context-section >h1{
+    color: #3A3A3A;
+    font-weight: 700;
+    line-height: 40px; 
+  }
+  .banner-context-section > p{
+    font-size: 16px;
+    color: #3A3A3A;
+    font-weight: 600;
+  }
+  .banner-btn{
+    background-color: #E02C6D;
+    width: fit-content;
+    padding: 10px 24px;
+    border-radius: 50px;
+    font-size: 16px;
+    color: #FFF;
+    font-weight: 700;
+    
+  }
+  .banner-img-section{
+    border: 1px solid blue;
+    width: 50%;
+    text-align: center;
+  }
+   
+  .img-circle{
+    position: relative;
+    
+  }
+  .img-main-camera{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+  }
+/* banner secton styles end here */
