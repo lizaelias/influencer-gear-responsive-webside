@@ -73,6 +73,10 @@
         flex-direction: column-reverse;
     }
 
+    .banner-context-section{
+      width: 100%;
+    }
+
     .logo-container span{
         margin-bottom: 20px;
     }

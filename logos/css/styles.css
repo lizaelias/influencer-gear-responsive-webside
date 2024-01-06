@@ -17,8 +17,7 @@ body{
     align-items: center;
 }
 .nav-heading{
-    border: 1px solid red;
-    width: 50%;
+       width: 50%;
     
 }
 .nav-heading p{
@@ -28,7 +27,6 @@ body{
 }
 
 .nav-context{
-    border: 1px solid green;
     width: 50%;
     display: flex;
     justify-content: space-between;
@@ -52,7 +50,6 @@ body{
 
   }
   .banner-context-section{
-    border: 1px solid yellow;
     width: 50%;
 
   }
@@ -67,7 +64,6 @@ body{
     font-weight: 600;
   }
   .banner-btn{
-    background-color: #E02C6D;
     width: fit-content;
     padding: 10px 24px;
     border-radius: 50px;
@@ -77,7 +73,6 @@ body{
     
   }
   .banner-img-section{
-    border: 1px solid blue;
     width: 50%;
     text-align: center;
   }
@@ -99,7 +94,7 @@ body{
 /* logo secton styles start here */
 
 .logo-container{
-  border: 1px solid orange;
+ 
   max-width: 1250px;
   margin: 0 auto;
   display: flex;
@@ -115,7 +110,6 @@ body{
 
 .card-container{
   max-width: 1150px;
-  border: 1px solid green;
   margin: 50px auto;
 
 }
@@ -179,12 +173,12 @@ body{
 }
 
 .features-img-container{
-  border: 1px solid red;
+
  width: 50%;
  text-align: center;
 }
 .features-context{
-  border: 1px solid yellow;
+  
   width: 50%;
 }
 
@@ -215,3 +209,38 @@ body{
 
 /* features producets section design  end here */
 
+/* footer section design  start here */
+
+.footer-container{
+ max-width: 1250px;
+ margin: 0px auto;
+ background-color: #18191F;
+  
+ 
+}
+
+.footer-context{
+  
+  text-align: center;
+ 
+
+}
+.footer-tittle{
+  color: #FFF;
+  font-size: 24px;
+  font-weight: 700;
+  } 
+  .footer-context p{
+    color:#D9DBE1;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px; 
+  }
+.fotter-logo-container{
+ 
+ margin-bottom: 20px;
+  
+  
+}
+
+/* footer section design  end */
