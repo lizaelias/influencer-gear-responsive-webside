@@ -12,7 +12,8 @@
     .banner-container,
     .banner-context-section,
     .banner-img-section,
-    .logo-container{
+    .logo-container
+    {
     
         width: 100%;
         text-align: center;
@@ -34,6 +35,17 @@
     
       }
 
+      .features-producets-container{
+        flex-direction: column;
+      }
+
+      .features-img-container{
+        width: 100%;
+        text-align: center;
+      }
+  .features-context{
+    width: 100%;
+  }
 }
 
 
@@ -70,6 +82,18 @@
      grid-template-columns: repeat(2, 1fr);
               
       }
+
+      .features-producets-container{
+        flex-direction: column;
+      }
+
+      .features-img-container{
+        width: 100%;
+        text-align: center;
+      }
+  .features-context{
+    width: 100%;
+  }
 
 
 }

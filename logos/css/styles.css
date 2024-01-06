@@ -167,4 +167,51 @@ body{
   font-weight: 700;
 }
 
-/* card secton styles start here */
+/* card secton styles end here */
+
+/* features producets section design  start here */
+
+.features-producets-container{
+  max-width: 1250px;
+  margin: 30px auto;
+  display: flex;
+  align-items: center;
+}
+
+.features-img-container{
+  border: 1px solid red;
+ width: 50%;
+ text-align: center;
+}
+.features-context{
+  border: 1px solid yellow;
+  width: 50%;
+}
+
+.features-tittle{
+  font-size: 38px;
+  color: #18191F;
+  font-weight: 700;
+  line-height: 60px;
+}
+
+.features-description{
+ 
+  color: #6C6C6C;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 28px;
+
+}
+.features-btn{
+  background: #E02C6D;
+  width: fit-content;
+  padding: 10px 24px;
+  color: #FFF;
+  
+
+}
+
+
+/* features producets section design  end here */
+
